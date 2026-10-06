@@ -14,8 +14,8 @@ Using an rbfdot kernel, the model correctly classified about 80% of 110,879 ball
 | 100 | 0.8017 | 0.8049 |
 | 1000 | 0.8044 | 0.8064 |
 
-![Actual outcomes, test set](Outcome_plots/YOUR_ACTUAL_TEST_FILENAME.png)
-![Predicted outcomes, test set, C=1](Outcome_plots/YOUR_C1_TEST_FILENAME.png)
+![Actual outcomes, test set](Outcome_plots/Actual%20Outcomes%20%282026%29%2C%20Test%20Set.png)
+![Predicted outcomes, test set, C=1](Outcome_plots/SVM%20Predicted%20Outcomes%20%282026%29%2C%20Test%20Set%20%28C%3D1%29.png)
 
 Low C values underfit and missed the line drive zone entirely, while high C values picked up small memorized islands at low exit velocity. The remaining errors are mostly bloops, infield singles, and well hit balls caught by fielders, which launch angle and exit velocity alone can't capture.
 
